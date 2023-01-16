@@ -2,18 +2,20 @@
 ::before,
 ::after {
   box-sizing: border-box;
-} //utilizamos el selector universal ya que no se hereda la propiedad. Si queremos que alguno cumpla content-box, lo especificamos.
+}
 
 a,
 a:focus,
 a:active,
 a:visited {
   color: inherit;
-  /*quitar underline*/
+  text-decoration: none;
 }
 
 body {
   margin: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 ul {
