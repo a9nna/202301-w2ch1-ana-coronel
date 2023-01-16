@@ -1,0 +1,5 @@
+@use "../variables/color-palette";
+
+body {
+  background-color: color-palette.$primary-color-dark;
+}
