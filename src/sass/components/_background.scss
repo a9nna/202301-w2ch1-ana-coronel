@@ -1,11 +1,22 @@
 @use "../variables/color-palette";
+@use "../utils/functions";
 
-body {
+.viewport {
+  overflow: hidden;
+  height: functions.pixelsToRem(666);
   background-color: color-palette.$primary-color-dark;
 }
 
 .top-background-circle {
   position: relative;
-  bottom: 461;
-  right: 430;
+  bottom: 537px;
+  right: 797px;
+  overflow: hidden;
+}
+
+.bottom-background-circle {
+  position: relative;
+  bottom: 648px;
+  right: -93px;
+  overflow: hidden;
 }
