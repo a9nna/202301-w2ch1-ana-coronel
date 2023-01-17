@@ -1,0 +1,33 @@
+@use "../variables/color-palette";
+@use "../utils/functions";
+@use "../breakpoints/breakpoints";
+
+.viewport {
+  overflow: hidden;
+  height: 100vh;
+  background-color: color-palette.$primary-color-dark;
+}
+
+.top-background-circle {
+  position: relative;
+  bottom: 537px;
+  right: 797px;
+
+  @media screen and (min-width: breakpoints.$breaking-point-to-desktop) {
+    position: relative;
+    bottom: 451px;
+    right: 182px;
+  }
+}
+
+.bottom-background-circle {
+  position: fixed;
+  bottom: -557px;
+  right: -613px;
+
+  @media screen and (min-width: breakpoints.$breaking-point-to-desktop) {
+    position: fixed;
+    bottom: -449px;
+    right: -135px;
+  }
+}
