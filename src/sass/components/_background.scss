@@ -10,24 +10,24 @@
 
 .top-background-circle {
   position: relative;
-  bottom: 537px;
-  right: 797px;
+  bottom: 537;
+  right: 797;
 
   @media screen and (min-width: breakpoints.$breaking-point-to-desktop) {
     position: relative;
-    bottom: 451px;
-    right: 182px;
+    bottom: 451;
+    right: 182;
   }
 }
 
 .bottom-background-circle {
   position: fixed;
-  bottom: -557px;
-  right: -613px;
+  bottom: -557;
+  right: -613;
 
   @media screen and (min-width: breakpoints.$breaking-point-to-desktop) {
     position: fixed;
-    bottom: -449px;
-    right: -135px;
+    bottom: -449;
+    right: -135;
   }
 }
